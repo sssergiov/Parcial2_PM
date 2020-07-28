@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>three.js Collada Exporter</authoring_tool>
+    </contributor>
+    <created>2020-07-28T02:51:32.328Z</created>
+    <modified>2020-07-28T02:51:32.328Z</modified>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+  </library_images>
+  <library_effects>
+    <effect id="Mat1-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0.9686274509803922 0.9686274509803922 0.9686274509803922 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <bump>
+            </bump>
+            <specular>
+              <color sid="specular">1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">0</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Mat2-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0.984313725490196 0.9764705882352941 0.9764705882352941 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <bump>
+            </bump>
+            <specular>
+              <color sid="specular">1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">0</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Mat3-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <bump>
+            </bump>
+            <specular>
+              <color sid="specular">1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">0</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Mat4-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <bump>
+            </bump>
+            <specular>
+              <color sid="specular">1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">0</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Mat5-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <bump>
+            </bump>
+            <specular>
+              <color sid="specular">1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">0</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Mat1">
+      <instance_effect url="#Mat1-effect" />
+    </material>
+    <material id="Mat2">
+      <instance_effect url="#Mat2-effect" />
+    </material>
+    <material id="Mat3">
+      <instance_effect url="#Mat3-effect" />
+    </material>
+    <material id="Mat4">
+      <instance_effect url="#Mat4-effect" />
+    </material>
+    <material id="Mat5">
+      <instance_effect url="#Mat5-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Mesh1">
+      <mesh>
+        <source id="Mesh1-position">
+          <float_array id="Mesh1-position-array" count="30">0 0 0 1 0 0 0.7071067690849304 0.7071067690849304 0 6.123234262925839e-17 1 0 -0.7071067690849304 0.7071067690849304 0 -1 1.2246468525851679e-16 0 -0.7071067690849304 -0.7071067690849304 0 -1.8369701465288538e-16 -1 0 0.7071067690849304 -0.7071067690849304 0 1 -2.4492937051703357e-16 0</float_array>
+          <technique_common>
+            <accessor source="#Mesh1-position-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mesh1-vertices">
+          <input semantic="POSITION" source="#Mesh1-position" />
+        </vertices>
+        <source id="Mesh1-normal">
+          <float_array id="Mesh1-normal-array" count="30">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Mesh1-normal-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh1-texcoord">
+          <float_array id="Mesh1-texcoord-array" count="20">0.5 0.5 1 0.5 0.8535534143447876 0.8535534143447876 0.5 1 0.1464466154575348 0.8535534143447876 0 0.5 0.1464466154575348 0.1464466154575348 0.5 0 0.8535534143447876 0.1464466154575348 1 0.5</float_array>
+          <technique_common>
+            <accessor source="#Mesh1-texcoord-array" count="10" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <triangles material="MESH_MATERIAL_0" count="8">
+          <input semantic="VERTEX" source="#Mesh1-vertices" offset="0" />
+          <input semantic="NORMAL" source="#Mesh1-normal" offset="0" />
+          <input semantic="TEXCOORD" source="#Mesh1-texcoord" offset="0" set="0" />
+          <p>1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 0 7 8 0 8 9 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Mesh2">
+      <mesh>
+        <source id="Mesh2-position">
+          <float_array id="Mesh2-position-array" count="30">0 0 0 1 0 0 0.7071067690849304 0.7071067690849304 0 6.123234262925839e-17 1 0 -0.7071067690849304 0.7071067690849304 0 -1 1.2246468525851679e-16 0 -0.7071067690849304 -0.7071067690849304 0 -1.8369701465288538e-16 -1 0 0.7071067690849304 -0.7071067690849304 0 1 -2.4492937051703357e-16 0</float_array>
+          <technique_common>
+            <accessor source="#Mesh2-position-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mesh2-vertices">
+          <input semantic="POSITION" source="#Mesh2-position" />
+        </vertices>
+        <source id="Mesh2-normal">
+          <float_array id="Mesh2-normal-array" count="30">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Mesh2-normal-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh2-texcoord">
+          <float_array id="Mesh2-texcoord-array" count="20">0.5 0.5 1 0.5 0.8535534143447876 0.8535534143447876 0.5 1 0.1464466154575348 0.8535534143447876 0 0.5 0.1464466154575348 0.1464466154575348 0.5 0 0.8535534143447876 0.1464466154575348 1 0.5</float_array>
+          <technique_common>
+            <accessor source="#Mesh2-texcoord-array" count="10" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <triangles material="MESH_MATERIAL_0" count="8">
+          <input semantic="VERTEX" source="#Mesh2-vertices" offset="0" />
+          <input semantic="NORMAL" source="#Mesh2-normal" offset="0" />
+          <input semantic="TEXCOORD" source="#Mesh2-texcoord" offset="0" set="0" />
+          <p>1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 0 7 8 0 8 9 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Mesh3">
+      <mesh>
+        <source id="Mesh3-position">
+          <float_array id="Mesh3-position-array" count="30">0 0 0 1 0 0 0.7071067690849304 0.7071067690849304 0 6.123234262925839e-17 1 0 -0.7071067690849304 0.7071067690849304 0 -1 1.2246468525851679e-16 0 -0.7071067690849304 -0.7071067690849304 0 -1.8369701465288538e-16 -1 0 0.7071067690849304 -0.7071067690849304 0 1 -2.4492937051703357e-16 0</float_array>
+          <technique_common>
+            <accessor source="#Mesh3-position-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mesh3-vertices">
+          <input semantic="POSITION" source="#Mesh3-position" />
+        </vertices>
+        <source id="Mesh3-normal">
+          <float_array id="Mesh3-normal-array" count="30">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Mesh3-normal-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh3-texcoord">
+          <float_array id="Mesh3-texcoord-array" count="20">0.5 0.5 1 0.5 0.8535534143447876 0.8535534143447876 0.5 1 0.1464466154575348 0.8535534143447876 0 0.5 0.1464466154575348 0.1464466154575348 0.5 0 0.8535534143447876 0.1464466154575348 1 0.5</float_array>
+          <technique_common>
+            <accessor source="#Mesh3-texcoord-array" count="10" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <triangles material="MESH_MATERIAL_0" count="8">
+          <input semantic="VERTEX" source="#Mesh3-vertices" offset="0" />
+          <input semantic="NORMAL" source="#Mesh3-normal" offset="0" />
+          <input semantic="TEXCOORD" source="#Mesh3-texcoord" offset="0" set="0" />
+          <p>1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 0 7 8 0 8 9 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Mesh4">
+      <mesh>
+        <source id="Mesh4-position">
+          <float_array id="Mesh4-position-array" count="30">0 0 0 1 0 0 0.7071067690849304 0.7071067690849304 0 6.123234262925839e-17 1 0 -0.7071067690849304 0.7071067690849304 0 -1 1.2246468525851679e-16 0 -0.7071067690849304 -0.7071067690849304 0 -1.8369701465288538e-16 -1 0 0.7071067690849304 -0.7071067690849304 0 1 -2.4492937051703357e-16 0</float_array>
+          <technique_common>
+            <accessor source="#Mesh4-position-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mesh4-vertices">
+          <input semantic="POSITION" source="#Mesh4-position" />
+        </vertices>
+        <source id="Mesh4-normal">
+          <float_array id="Mesh4-normal-array" count="30">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Mesh4-normal-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh4-texcoord">
+          <float_array id="Mesh4-texcoord-array" count="20">0.5 0.5 1 0.5 0.8535534143447876 0.8535534143447876 0.5 1 0.1464466154575348 0.8535534143447876 0 0.5 0.1464466154575348 0.1464466154575348 0.5 0 0.8535534143447876 0.1464466154575348 1 0.5</float_array>
+          <technique_common>
+            <accessor source="#Mesh4-texcoord-array" count="10" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <triangles material="MESH_MATERIAL_0" count="8">
+          <input semantic="VERTEX" source="#Mesh4-vertices" offset="0" />
+          <input semantic="NORMAL" source="#Mesh4-normal" offset="0" />
+          <input semantic="TEXCOORD" source="#Mesh4-texcoord" offset="0" set="0" />
+          <p>1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 0 7 8 0 8 9 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Mesh5">
+      <mesh>
+        <source id="Mesh5-position">
+          <float_array id="Mesh5-position-array" count="12">-0.5 0.5 0 0.5 0.5 0 -0.5 -0.5 0 0.5 -0.5 0</float_array>
+          <technique_common>
+            <accessor source="#Mesh5-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mesh5-vertices">
+          <input semantic="POSITION" source="#Mesh5-position" />
+        </vertices>
+        <source id="Mesh5-normal">
+          <float_array id="Mesh5-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Mesh5-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh5-texcoord">
+          <float_array id="Mesh5-texcoord-array" count="8">0 1 1 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Mesh5-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <triangles material="MESH_MATERIAL_0" count="2">
+          <input semantic="VERTEX" source="#Mesh5-vertices" offset="0" />
+          <input semantic="NORMAL" source="#Mesh5-normal" offset="0" />
+          <input semantic="TEXCOORD" source="#Mesh5-texcoord" offset="0" set="0" />
+          <p>0 2 1 2 3 1</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="scene">
+      <node name="Scene">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node name="Circle">
+          <matrix>1 0 0 0.047780760406597955 0 1 0 0.8060930809420819 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#Mesh1">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="MESH_MATERIAL_0" target="#Mat1" >
+                  <bind_vertex_input semantic="TEXCOORD" input_semantic="TEXCOORD" input_set="0" />
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node name="Circle">
+          <matrix>0.78 0 0 0.06 0 0.78 0 2.125831042406187 0 0 0.78 0 0 0 0 1</matrix>
+          <instance_geometry url="#Mesh2">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="MESH_MATERIAL_0" target="#Mat2" >
+                  <bind_vertex_input semantic="TEXCOORD" input_semantic="TEXCOORD" input_set="0" />
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node name="Circle">
+          <matrix>0.12 0 0 -0.21773645074390013 0 0.12 0 2.294887967469536 0 0 0.12 0.07336711740201673 0 0 0 1</matrix>
+          <instance_geometry url="#Mesh3">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="MESH_MATERIAL_0" target="#Mat3" >
+                  <bind_vertex_input semantic="TEXCOORD" input_semantic="TEXCOORD" input_set="0" />
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node name="Circle">
+          <matrix>0.14 0 0 0.2504680955670653 0 0.14000000000000015 0 2.3100345596642406 0 0 0.14000000000000015 0.019326865216670486 0 0 0 1</matrix>
+          <instance_geometry url="#Mesh4">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="MESH_MATERIAL_0" target="#Mat4" >
+                  <bind_vertex_input semantic="TEXCOORD" input_semantic="TEXCOORD" input_set="0" />
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node name="Plane">
+          <matrix>1.2801340810771693 -0.02520324145169925 0.12679318367581965 1.353451392128646 0.3618210665243933 0.09650164944723115 3.191891195797325e-18 1.7472300934904088 -0.36707254090147007 0.00722691319243988 0.4421803801316267 -0.14493748847726062 0 0 0 1</matrix>
+          <instance_geometry url="#Mesh5">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="MESH_MATERIAL_0" target="#Mat5" >
+                  <bind_vertex_input semantic="TEXCOORD" input_semantic="TEXCOORD" input_set="0" />
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node name="Plane">
+          <matrix>1.3603811321983037 0.01596620760807058 -0.02407453987175416 -1.112904736649937 -0.2220807303730478 0.09867445333494052 -0.00962031075138578 1.6953642777300613 0.06665826547274376 0.0029038721849691126 0.45926883864574364 -0.019515738394236815 0 0 0 1</matrix>
+          <instance_geometry url="#Mesh5">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="MESH_MATERIAL_0" target="#Mat5" >
+                  <bind_vertex_input semantic="TEXCOORD" input_semantic="TEXCOORD" input_set="0" />
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

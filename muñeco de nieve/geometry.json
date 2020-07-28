@@ -1,0 +1,13 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "BufferGeometry",
+		"generator": "BufferGeometry.toJSON"
+	},
+	"uuid": "6732B208-61F5-4B59-BD78-E66F034AB037",
+	"type": "PlaneBufferGeometry",
+	"width": 1,
+	"height": 1,
+	"widthSegments": 1,
+	"heightSegments": 1
+}
